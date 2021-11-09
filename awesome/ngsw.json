@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1636450063211,
-  "index": "/index.html",
+  "timestamp": 1636454770701,
+  "index": "/awesome/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.83d5cd92b055ae655150.js",
-        "/manifest.webmanifest",
-        "/polyfills.e8b332206eda6b2c4e6b.js",
-        "/runtime.666a197d2dd971ad149f.js",
-        "/styles.31d6cfe0d16ae931b73c.css"
+        "/awesome/favicon.ico",
+        "/awesome/index.html",
+        "/awesome/main.83d5cd92b055ae655150.js",
+        "/awesome/manifest.webmanifest",
+        "/awesome/polyfills.e8b332206eda6b2c4e6b.js",
+        "/awesome/runtime.666a197d2dd971ad149f.js",
+        "/awesome/styles.31d6cfe0d16ae931b73c.css"
       ],
       "patterns": []
     },
@@ -29,37 +29,37 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/download.png",
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/awesome/assets/download.png",
+        "/awesome/assets/icons/icon-128x128.png",
+        "/awesome/assets/icons/icon-144x144.png",
+        "/awesome/assets/icons/icon-152x152.png",
+        "/awesome/assets/icons/icon-192x192.png",
+        "/awesome/assets/icons/icon-384x384.png",
+        "/awesome/assets/icons/icon-512x512.png",
+        "/awesome/assets/icons/icon-72x72.png",
+        "/awesome/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/download.png": "a7c2ae5dbe68c002889b5a905f26d6e738ec08af",
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "7d4ef314d461ff6ce33c5a2b75a0b18ef67bf4fc",
-    "/main.83d5cd92b055ae655150.js": "dcd848d526fbf0fae37481d9eef8385ee0711c6f",
-    "/manifest.webmanifest": "dee41a2743f1dbb90749afdf66fc1aaebdbeba60",
-    "/polyfills.e8b332206eda6b2c4e6b.js": "4d5cd1e54ebc4b012e16caf806cdc7cfb696063c",
-    "/runtime.666a197d2dd971ad149f.js": "35ba16cc245b5e144c1f2c9497f5317d3f08372b",
-    "/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/awesome/assets/download.png": "a7c2ae5dbe68c002889b5a905f26d6e738ec08af",
+    "/awesome/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/awesome/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/awesome/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/awesome/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/awesome/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/awesome/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/awesome/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/awesome/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/awesome/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/awesome/index.html": "49c8bd956c4a1744890b35962775b8bab6eb65be",
+    "/awesome/main.83d5cd92b055ae655150.js": "dcd848d526fbf0fae37481d9eef8385ee0711c6f",
+    "/awesome/manifest.webmanifest": "dee41a2743f1dbb90749afdf66fc1aaebdbeba60",
+    "/awesome/polyfills.e8b332206eda6b2c4e6b.js": "4d5cd1e54ebc4b012e16caf806cdc7cfb696063c",
+    "/awesome/runtime.666a197d2dd971ad149f.js": "35ba16cc245b5e144c1f2c9497f5317d3f08372b",
+    "/awesome/styles.31d6cfe0d16ae931b73c.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {

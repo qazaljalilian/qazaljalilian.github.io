@@ -2057,6 +2057,27 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ 'Content-Type': 'text/plain' }
             this.scope.addEventListener('message', (event) => this.onMessage(event));
             this.scope.addEventListener('push', (event) => this.onPush(event));
             this.scope.addEventListener('notificationclick', (event) => this.onClick(event));
+            self.addEventListener('notificationclick', function (event)
+{
+    //For root applications: just change "'./'" to "'/'"
+    //Very important having the last forward slash on "new URL('./', location)..."
+    const rootUrl = new URL('./', location).href; 
+    event.notification.close();
+    event.waitUntil(
+        clients.matchAll().then(matchedClients =>
+        {
+            for (let client of matchedClients)
+            {
+                if (client.url.indexOf(rootUrl) >= 0)
+                {
+                    return client.focus();
+                }
+            }
+
+            return clients.openWindow(rootUrl).then(function (client) { client.focus(); });
+        })
+    );
+});
             // The debugger generates debug pages in response to debugging requests.
             this.debugger = new DebugHandler(this, this.adapter);
             // The IdleScheduler will execute idle tasks after a given delay.
